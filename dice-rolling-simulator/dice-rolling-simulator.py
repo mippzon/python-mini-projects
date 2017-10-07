@@ -23,6 +23,6 @@ while exit_wanted != 0:
 
     roll(int(nbrOfDices))
 
-    test = input('Do you want to continue?')
+    test = input('Do you want to continue? \n')
     if test == 'no':
         exit_wanted = 0
