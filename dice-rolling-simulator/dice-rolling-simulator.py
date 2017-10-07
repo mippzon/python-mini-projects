@@ -25,6 +25,6 @@ while exit_wanted != 0:
 
     roll(int(nbrOfDices))
 
-    test = input('Do you want to continue play this game or not? \n')
+    test = input('Do you want to continue play this game? \n')
     if test == 'no':
         exit_wanted = 0
