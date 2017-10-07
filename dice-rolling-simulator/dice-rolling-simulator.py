@@ -1,10 +1,5 @@
 import random
 
-print('Welcome to the Dice Rolling Simulator!')
-
-nbrOfDices = input('How many dices do you want to throw? \n')
-
-
 def roll(nbr_of_dices):
 
     sum = 0
@@ -17,4 +12,17 @@ def roll(nbr_of_dices):
 
     print('You rolled a total of: {}'.format(sum))
 
-roll(int(nbrOfDices))
+
+print('Welcome to the Dice Rolling Simulator!')
+
+exit_wanted = 1
+
+while exit_wanted != 0:
+
+    nbrOfDices = input('How many dices do you want to throw? \n')
+
+    roll(int(nbrOfDices))
+
+    test = input('Do you want to continue?')
+    if test == 'no':
+        exit_wanted = 0
