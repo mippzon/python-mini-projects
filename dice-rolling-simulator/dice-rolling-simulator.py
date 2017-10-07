@@ -13,7 +13,9 @@ def roll(nbr_of_dices):
     print('You rolled a total of: {}'.format(sum))
 
 
-print('Welcome to the Dice Rolling Simulator!')
+def welcome_message():
+    print('Welcome to the Dice Rolling Simulator!')
+
 
 exit_wanted = 1
 
