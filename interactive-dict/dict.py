@@ -2,8 +2,6 @@ import difflib
 import json
 from difflib import get_close_matches
 
-data = json.load(open('D:\dev\python-mini-projects\interactive-dict\dictionary.json'))
-
 def retrive_definition(word):
 
     word = word.lower()
@@ -22,6 +20,8 @@ def retrive_definition(word):
             return 'Word does not exist'
         else:
             return 'We dont understand'
+
+data = json.load(open('D:\dev\python-mini-projects\interactive-dict\dictionary.json'))
 
 word_user = input('Enter a word: ')
 
