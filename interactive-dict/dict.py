@@ -1,5 +1,5 @@
-import json
 import difflib
+import json
 from difflib import get_close_matches
 
 data = json.load(open('D:\dev\python-mini-projects\interactive-dict\dictionary.json'))
